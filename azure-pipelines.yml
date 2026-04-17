@@ -174,7 +174,7 @@ stages:
               git add values.yaml
               git commit -m "Update front image tag to $(IMAGE_TAG)"
 
-              git remote set-url origin https://$(ECOM-GITOPS-REPO-PAT)@github.com/akash66sheoran/ecom-gitops.git
+              git remote set-url origin https://$(ECOM-GITOPS-REPO-TOKEN)@github.com/akash66sheoran/ecom-gitops.git
               git push origin main
 
             displayName: Update Helm values
