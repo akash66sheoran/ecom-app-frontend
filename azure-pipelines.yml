@@ -40,7 +40,7 @@ stages:
               set -euo pipefail
 
               echo "Installing dependencies..."
-              npm ci
+              npm install
 
               echo "Running frontend build..."
               npm run build
