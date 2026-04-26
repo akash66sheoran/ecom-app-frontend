@@ -1,6 +1,9 @@
 # Node modules
 node_modules
 
+# img for README
+img
+
 # Git
 .git
 .gitignore

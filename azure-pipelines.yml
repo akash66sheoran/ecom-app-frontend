@@ -14,6 +14,7 @@ trigger:
     exclude:
       - README.md
       - azure-pipelines.yaml
+      - img/**
 
 pr:
   branches:
@@ -31,6 +32,7 @@ pr:
       - azure-pipelines.yaml
     exclude:
       - README.md
+      - img/**
 
 pool:
   vmImage: ubuntu-latest
